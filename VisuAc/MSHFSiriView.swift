@@ -291,7 +291,7 @@ struct MSHFSiriView: View {
         } else {
             guard let url = audioURL else { return }
             
-            print("Externe Audio URL: \(url)")
+            print("Extern Audio URL: \(url)")
             
             // Wichtig: Zugriff auf die Security-Scoped URL starten
             guard url.startAccessingSecurityScopedResource() else {
